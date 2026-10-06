@@ -1,0 +1,19 @@
+{
+  "name": "stellar-party",
+  "version": "1.0.0",
+  "description": "Stellar Party — a colorful multiplayer star-collecting game with rooms, friends, chat, and leaderboards.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node -e \"console.log('no build step')\""
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": ["multiplayer", "game", "socket.io", "friends"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
